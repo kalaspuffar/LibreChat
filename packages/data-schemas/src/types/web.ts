@@ -9,8 +9,7 @@ export type TWebSearchKeys =
   | 'firecrawlVersion'
   | 'jinaApiKey'
   | 'jinaApiUrl'
-  | 'cohereApiKey'
-  | 'simpleRerankerInstanceUrl';
+  | 'cohereApiKey';
 
 export type TWebSearchCategories =
   | SearchCategories.PROVIDERS

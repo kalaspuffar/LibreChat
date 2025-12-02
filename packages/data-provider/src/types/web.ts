@@ -180,7 +180,6 @@ export interface SearchToolConfig extends SearchConfig, ProcessSourcesConfig, Fi
   jinaApiKey?: string;
   jinaApiUrl?: string;
   cohereApiKey?: string;
-  simpleRerankerInstanceUrl?: string;
   rerankerType?: RerankerType;
   onSearchResults?: (results: SearchResult, runnableConfig?: RunnableConfig) => void;
   onGetHighlights?: (link: string) => void;
